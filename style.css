@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+   color: #888;
+    text-align: center;
+    margin-top: 90px;
+    margin-left:38%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container{
+    display: flex;
+    text-align: center;
+    margin-top:90px;
+   
+    border-bottom: 16px; 
+    margin-left: 448px;
+    
+}
+ button {
+    border-radius: 5px;
+    margin: 10px;
+    height: 60px auto ;
+    padding:10px ;
+    font-size: 20px;
+    background-color: rgba(240, 188, 124, 0.795);
+    color:  #888;
+    cursor: pointer;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+   
+}
+
+#listatarefas{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+    text-align: center;
+    font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input{
+    
+    margin: 10px;
+    font-size: 21px;
+    height: 30px auto;
+    border-radius: 10px auto;
+    padding: 10px;
+    border-radius: 6px ;
+    background-color: rgba(240, 188, 124, 0.795);
+    color: #fff;
+}
+body{
+    background-color: bisque;
+    margin-right: 35px;
+
+}
+.concluida {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 30px;
+
+}
+
+#listaTarefas{
+    flex-wrap: wrap;
+    margin-right: 280px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2b1d1d;
+}
